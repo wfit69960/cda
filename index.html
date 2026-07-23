@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="fr" data-demo="github">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ClairDevis Auto | Démo visuelle</title>
+    <meta
+      name="description"
+      content="Démo visuelle de ClairDevis Auto, plateforme d'aide à la lecture de devis de réparation automobile."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#accueil" aria-label="ClairDevis Auto">
+        <span class="brand-mark">CDA</span>
+        <span>ClairDevis Auto</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#methode">Méthode</a>
+        <a href="#rapport">Rapport</a>
+        <a href="#depot">Déposer un devis</a>
+        <a href="#tarifs">Tarifs</a>
+      </nav>
+      <a class="header-cta" href="#depot">Demander un avis</a>
+    </header>
+
+    <main>
+      <section class="hero" id="accueil" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/hero-devis-auto.png"
+          alt="Devis de réparation automobile analysé sur un bureau professionnel"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Analyse indépendante de devis automobile</p>
+          <h1 id="hero-title">ClairDevis Auto</h1>
+          <p class="hero-copy">
+            Un avis clair avant d'accepter une réparation. Nous relisons votre devis,
+            vérifions la cohérence des temps barème, des pièces et des postes facturés,
+            puis vous remettons un retour exploitable pour décider sans pression.
+          </p>
+          <div class="hero-actions" aria-label="Actions principales">
+            <a class="button primary" href="#depot">Déposer mon devis</a>
+            <a class="button secondary" href="#rapport">Voir ce qui est vérifié</a>
+          </div>
+          <div class="hero-points" aria-label="Points clés">
+            <span>Réponse sous 24 à 48 h ouvrées</span>
+            <span>Parcours paiement simulé</span>
+            <span>Approche neutre, sans accusation</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Positionnement">
+        <span>Pour particuliers</span>
+        <span>Avant accord de réparation</span>
+        <span>Lecture compréhensible</span>
+        <span>Questions utiles à poser</span>
+      </section>
+
+      <section class="section intro-section">
+        <div class="section-heading">
+          <p class="eyebrow">Le principe</p>
+          <h2>Rééquilibrer l'information, sans conflit inutile.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            Un devis automobile peut être techniquement dense : libellés courts,
+            références de pièces, temps de main-d'oeuvre, opérations liées ou non.
+            ClairDevis Auto apporte une seconde lecture indépendante pour vous aider à
+            comprendre ce que vous signez.
+          </p>
+          <p>
+            L'objectif n'est pas de désigner un fautif. Nous identifions les points
+            cohérents, les lignes à clarifier, les écarts possibles et les alternatives
+            raisonnables lorsque la sécurité, la garantie et les préconisations
+            constructeur le permettent.
+          </p>
+        </div>
+      </section>
+
+      <section class="section method-section" id="methode">
+        <div class="section-heading">
+          <p class="eyebrow">Méthode</p>
+          <h2>Une analyse structurée, lisible par un non-spécialiste.</h2>
+        </div>
+        <div class="method-grid">
+          <article class="method-card">
+            <span class="step">01</span>
+            <h3>Dépôt du devis</h3>
+            <p>
+              Vous transmettez le devis et les informations utiles : véhicule,
+              kilométrage, contexte de la panne et urgence éventuelle.
+            </p>
+          </article>
+          <article class="method-card">
+            <span class="step">02</span>
+            <h3>Contrôle des postes</h3>
+            <p>
+              Nous relisons les temps, les pièces, les consommables, la main-d'oeuvre
+              et les opérations associées pour repérer ce qui mérite explication.
+            </p>
+          </article>
+          <article class="method-card">
+            <span class="step">03</span>
+            <h3>Retour exploitable</h3>
+            <p>
+              Vous recevez une synthèse claire : éléments cohérents, points à vérifier,
+              économie potentielle et questions à poser au réparateur.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section report-section" id="rapport">
+        <div class="report-layout">
+          <div>
+            <p class="eyebrow">Ce que contient l'avis</p>
+            <h2>Un rapport utile pour discuter calmement du devis.</h2>
+            <p>
+              Le rapport ne remplace pas un diagnostic mécanique ni une expertise
+              judiciaire. Il vous donne une lecture indépendante du document transmis,
+              avec un langage simple et des points de discussion précis.
+            </p>
+            <p>
+              Lorsque le dossier le permet, nous nous appuyons sur des bases de donnees
+              constructeur, des temps de reference et des informations techniques
+              disponibles afin de fiabiliser les elements transmis.
+            </p>
+          </div>
+          <div class="checklist" aria-label="Contrôles inclus">
+            <div>
+              <strong>Bases constructeur</strong>
+              <span>Verification des informations disponibles avant confirmation du dossier.</span>
+            </div>
+            <div>
+              <strong>Temps barème</strong>
+              <span>Cohérence des heures facturées avec l'opération annoncée.</span>
+            </div>
+            <div>
+              <strong>Prix des pièces</strong>
+              <span>Repérage des références, niveaux de gamme et alternatives possibles.</span>
+            </div>
+            <div>
+              <strong>Main-d'oeuvre et consommables</strong>
+              <span>Lecture des taux horaires, forfaits, fluides et petites fournitures.</span>
+            </div>
+            <div>
+              <strong>Économie envisageable</strong>
+              <span>Fourchette prudente lorsqu'une option réaliste semble exister.</span>
+            </div>
+            <div>
+              <strong>Questions au garage</strong>
+              <span>Formulations neutres pour demander des précisions sans tension.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section deposit-section" id="depot">
+        <div class="section-heading">
+          <p class="eyebrow">Demande d'analyse</p>
+          <h2>Déposez votre devis et vos coordonnées.</h2>
+          <p>
+            Les champs essentiels suffisent pour lancer le dossier. Les documents sont
+            traités uniquement pour établir l'avis demandé.
+          </p>
+        </div>
+
+        <form class="request-form" id="quoteForm" novalidate>
+          <div class="form-main">
+            <fieldset>
+              <legend>Vos coordonnées</legend>
+              <div class="field-row">
+                <label>
+                  Nom complet
+                  <input name="name" type="text" autocomplete="name" required />
+                </label>
+                <label>
+                  Email
+                  <input name="email" type="email" autocomplete="email" required />
+                </label>
+              </div>
+              <div class="field-row">
+                <label>
+                  Téléphone
+                  <input name="phone" type="tel" autocomplete="tel" />
+                </label>
+                <label>
+                  Ville
+                  <input name="city" type="text" autocomplete="address-level2" />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Le véhicule et le devis</legend>
+              <div class="field-row">
+                <label>
+                  Véhicule
+                  <input name="vehicle" type="text" placeholder="Ex. Peugeot 308 1.6 BlueHDi" required />
+                </label>
+                <label>
+                  Kilométrage
+                  <input name="mileage" type="number" min="0" step="1000" placeholder="Ex. 128000" />
+                </label>
+              </div>
+              <div class="field-row">
+                <label>
+                  Montant du devis
+                  <input name="quoteAmount" type="number" min="0" step="1" placeholder="Ex. 1240" required />
+                </label>
+                <label>
+                  Réparateur
+                  <input name="repairer" type="text" placeholder="Garage, concession, centre auto" />
+                </label>
+              </div>
+              <label>
+                Votre question principale
+                <select name="priority">
+                  <option value="coherence">Je veux vérifier la cohérence globale</option>
+                  <option value="labor">Je doute du temps de main-d'oeuvre</option>
+                  <option value="parts">Je veux contrôler le prix des pièces</option>
+                  <option value="alternatives">Je cherche une économie possible</option>
+                  <option value="explain">Je veux comprendre le devis</option>
+                </select>
+              </label>
+              <label>
+                Contexte
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Symptômes, urgence, échanges déjà eus avec le garage, date prévue de réparation..."
+                ></textarea>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Joindre le devis</legend>
+              <div class="upload-box" data-upload-zone>
+                <input id="quoteFile" name="quoteFile" type="file" accept=".pdf,.jpg,.jpeg,.png,.heic" multiple required />
+                <label for="quoteFile">
+                  <strong>Ajouter le devis</strong>
+                  <span>PDF, photo ou capture. Vous pouvez joindre plusieurs pages.</span>
+                </label>
+              </div>
+              <ul class="file-list" data-file-list aria-live="polite"></ul>
+            </fieldset>
+          </div>
+
+          <aside class="form-side" id="tarifs">
+            <h3>Choisir l'analyse</h3>
+            <label class="price-option">
+              <input type="radio" name="offer" value="essential" checked />
+              <span>
+                <strong>Essentiel</strong>
+                <small>Lecture du devis, incohérences visibles, questions à poser.</small>
+              </span>
+              <b>29 EUR</b>
+            </label>
+            <label class="price-option">
+              <input type="radio" name="offer" value="complete" />
+              <span>
+                <strong>Complet</strong>
+                <small>Analyse détaillée pièces, temps, alternatives et synthèse.</small>
+              </span>
+              <b>49 EUR</b>
+            </label>
+            <label class="price-option">
+              <input type="radio" name="offer" value="urgent" />
+              <span>
+                <strong>Prioritaire</strong>
+                <small>Retour priorisé sous 24 h ouvrées selon dossier transmis.</small>
+              </span>
+              <b>79 EUR</b>
+            </label>
+
+            <div class="payment-note">
+              Démo visuelle GitHub : aucun paiement n'est déclenché et aucune donnée
+              n'est envoyée. En production, le paiement serait sécurisé par Stripe.
+            </div>
+
+            <button class="button primary full" type="submit">Simuler le dépôt</button>
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          </aside>
+        </form>
+      </section>
+
+      <section class="section reassurance-section">
+        <div class="reassurance-grid">
+          <article>
+            <h3>Indépendance</h3>
+            <p>
+              L'avis est construit à partir du devis transmis et des informations du
+              véhicule. Il vise la compréhension et la discussion, pas la confrontation.
+            </p>
+          </article>
+          <article>
+            <h3>Bases constructeur</h3>
+            <p>
+              Nous utilisons les bases constructeur et les references techniques
+              disponibles pour controler les temps, les operations et les pieces lorsque
+              ces informations sont accessibles.
+            </p>
+          </article>
+          <article>
+            <h3>Prudence technique</h3>
+            <p>
+              Aucune économie n'est proposée si elle compromet la sécurité, la garantie
+              ou une préconisation constructeur connue.
+            </p>
+          </article>
+          <article>
+            <h3>Facturation conditionnelle</h3>
+            <p>
+              Si nous sommes dans l'incapacite d'obtenir les informations fiables
+              necessaires a l'analyse, aucune facturation n'est confirmee pour le dossier.
+            </p>
+          </article>
+          <article>
+            <h3>Confidentialité</h3>
+            <p>
+              Les documents servent uniquement à l'analyse demandée. Les données peuvent
+              être supprimées à votre demande après traitement.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>ClairDevis Auto</strong>
+        <p>Démo visuelle pour présentation interne.</p>
+      </div>
+      <div>
+        <a href="#depot">Déposer un devis</a>
+        <a href="mailto:contact@clairdevis-auto.fr">contact@clairdevis-auto.fr</a>
+      </div>
+    </footer>
+
+    <div class="modal" data-modal hidden>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" data-modal-close aria-label="Fermer">×</button>
+        <h2 id="modal-title">Démo visuelle</h2>
+        <p data-modal-message>
+          Cette version est prévue pour GitHub Pages : elle montre le parcours, mais ne
+          transmet aucune donnée et ne déclenche aucun paiement.
+        </p>
+        <a class="button primary" href="README.md">Voir les notes</a>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
